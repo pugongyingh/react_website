@@ -1,0 +1,46 @@
+$primary-color: ivory
+$secondary-color: #1f1815
+
+$large-padding: 2em
+$small-padding: 1em
+
+=dark
+  color: $primary-color
+  -webkit-text-stroke: 1px rgba(0,0,0,.4)
+
+body
+  background: $primary-color
+
+nav
+  +dark
+  background: $secondary-color
+  padding: 2em
+
+  display: grid
+  grid-template-rows: 100px
+  grid-template-columns: auto 100px
+
+.avatar
+  border-radius: 5px
+  width: 20vw
+
+.section
+  padding: $large-padding
+  width: 100vw
+
+.section-content
+  width: 80vw
+  margin: auto
+
+.project-card
+  background: offwhite;
+  border: 1px solid lightgrey
+  padding: $large-padding
+  display: grid
+  margin-bottom: 20px
+  grid-template-columns: 30vw auto
+
+  &__title
+    grid-column-start: 1
+    grid-column-end: 3
+    text-align: center
