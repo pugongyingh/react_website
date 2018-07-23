@@ -1,4 +1,6 @@
-import projects from "../../public/static/projects.json";
+import projects from "./projects.json";
+
+ // const projects = { projects: [] }
 
 const ProjectStore = function() {
   this.all = projects.projects;
