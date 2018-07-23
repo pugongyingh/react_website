@@ -13,7 +13,8 @@
     "gatsby-plugin-sass": "^1.0.26",
     "netlify-cms": "^1.9.3",
     "react-helmet": "^5.2.0",
-    "react-markdown": "^3.3.4"
+    "react-markdown": "^3.3.4",
+    "remark-parse": "^5.0.0"
   },
   "keywords": [
     "gatsby"
