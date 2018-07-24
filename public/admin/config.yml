@@ -7,7 +7,6 @@ public_folder: "/public" # The src attribute for uploaded media will begin with 
 
 collections:
   - label: projects
-    name: Projects
     file: "static/projects.json"
     fields:
       - label: Title

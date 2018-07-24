@@ -1,4 +1,4 @@
-import projects from "./projects.json";
+import projects from "../../public/static/projects.json";
 
  // const projects = { projects: [] }
 

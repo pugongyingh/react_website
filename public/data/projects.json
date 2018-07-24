@@ -1,0 +1,71 @@
+{
+  "title": "Projects",
+  "projects": [
+    {
+      "title": "Piper",
+      "description": "Piper Desc,",
+      "image": "/static/assets/images/Piper.png",
+      "tags": ["programming", "games and simulations"]
+    },
+    {
+      "title": "Turing Machine Simulator",
+      "description": "Turing Machine Simulator\n\n **Test** ",
+      "image": "/static/assets/images/TuringMachineSimulator.png",
+      "tags": ["programming", "games and simulations"]
+    },
+    {
+      "title": "Neural Network Project",
+      "description": "A javascript neural network builder",
+      "image": "/static/assets/images/nnp.png",
+      "tags": ["programming", "games and simulations", "mind", "artificial intelligence"]
+    },
+    {
+      "title": "Where Do They Publish?",
+      "description": "Piper Desc,",
+      "image": "/static/assets/images/WDTP.png",
+      "tags": ["programming", "meta-academia", "philosophy"]
+    },
+    {
+      "title": "Philosophy Data Project",
+      "description": "Piper Desc,",
+      "image": "/static/assets/images/pdp.png",
+      "tags": ["programming", "meta-academia", "philosophy"]
+    },
+    {
+      "title": "ForMu",
+      "description": "Piper Desc,",
+      "image": "/static/assets/images/ForMu.png",
+      "tags": ["programming"]
+    },
+    {
+      "title": "A Primitive Solution to the Negation Problem",
+      "description": "Piper Desc,",
+      "image": "/static/assets/images/Piper.png",
+      "tags": ["papers", "philosophy", "meta-ethics"]
+    },
+    {
+      "title": "The Unity of Moral Attitudes",
+      "description": "Piper Desc,",
+      "image": "/static/assets/images/Piper.png",
+      "tags": ["papers", "philosophy", "meta-ethics", "mind"]
+    },
+    {
+      "title": "In Defense of Artificial Replacement",
+      "description": "Piper Desc,",
+      "image": "/static/assets/images/Piper.png",
+      "tags": ["papers", "philosophy", "artificial intelligence", "ethics"]
+    },
+    {
+      "title": "Hidden Qualia",
+      "description": "Piper Desc,",
+      "image": "/static/assets/images/Piper.png",
+      "tags": ["papers", "philosophy", "mind"]
+    },
+    {
+      "title": "The Problem of Other Attitudes",
+      "description": "Turing Machine Simulator\n\n **Test** ",
+      "image": "/static/assets/images/Piper.png",
+      "tags": ["papers", "philosophy", "mind"]
+    }
+  ]
+}
