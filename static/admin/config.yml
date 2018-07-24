@@ -6,22 +6,25 @@ media_folder: "static/images/uploads" # Media files will be stored in the repo u
 public_folder: "/public" # The src attribute for uploaded media will begin with /images/uploads
 
 collections:
-  - label: projects
-    name: Projects
-    file: "static/projects.json"
-    fields:
-      - label: Title
-        name: title
-      - label: Projects
-        name: projects
-        widget: list
+  - label: data
+    name: data
+    files:
+      - label: projects
+        name: Projects
+        file: "static/projects.json"
         fields:
           - label: Title
             name: title
-          - label: Description
-            name: description
-            widget: markdown
-          - label: Image
-            name: image
-            widget: image
+          - label: Projects
+            name: projects
+            widget: list
+            fields:
+              - label: Title
+                name: title
+              - label: Description
+                name: description
+                widget: markdown
+              - label: Image
+                name: image
+                widget: image
 
