@@ -11,10 +11,23 @@ class IndexPage extends React.Component {
           p I'm a web developer at The Humane League. I come from a background in academic philosophy, where I specialized in metaethics, the philosophy of probability, and the philosophy of mind.  On this website, you can find a selection of papers and projects.
         Section
           h1 Projects
+          ${this.renderCheckBoxes()}
           ${this.renderProjects()}
     `}
 
-    renderProjects(){
+    renderCheckBoxes() {
+      return pug`
+        span
+          label Philosophy
+          .button
+          label Ethics
+          .button
+          label Metaethics
+          .button
+      `
+    }
+
+    renderProjects() {
       return ProjectStore.all.map(project => (
         pug`
           ProjectCard(
