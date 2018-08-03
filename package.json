@@ -6,7 +6,9 @@
   "dependencies": {
     "@amory/babel-pug": "latest",
     "@amory/react-pug": "latest",
+    "@fortawesome/fontawesome-svg-core": "^1.2.2",
     "@fortawesome/free-brands-svg-icons": "^5.2.0",
+    "@fortawesome/free-solid-svg-icons": "^5.2.0",
     "@fortawesome/react-fontawesome": "^0.1.0",
     "gatsby": "^1.9.247",
     "gatsby-link": "^1.6.40",
