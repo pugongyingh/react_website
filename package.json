@@ -6,6 +6,8 @@
   "dependencies": {
     "@amory/babel-pug": "latest",
     "@amory/react-pug": "latest",
+    "@fortawesome/free-brands-svg-icons": "^5.2.0",
+    "@fortawesome/react-fontawesome": "^0.1.0",
     "gatsby": "^1.9.247",
     "gatsby-link": "^1.6.40",
     "gatsby-plugin-netlify-cms": "^2.0.1",

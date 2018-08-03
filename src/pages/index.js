@@ -3,6 +3,10 @@ import Section from '../components/section'
 import ProjectCard from '../components/projectCard'
 import ProjectStore from '../models/ProjectStore'
 class IndexPage extends React.Component {
+  constructor() {
+    super();
+    this.state = { selectedFields: [] }
+  }
   render() {
     return pug`
       div
@@ -11,24 +15,33 @@ class IndexPage extends React.Component {
           p I'm a web developer at The Humane League. I come from a background in academic philosophy, where I specialized in metaethics, the philosophy of probability, and the philosophy of mind.  On this website, you can find a selection of papers and projects.
         Section
           h1 Projects
-          ${this.renderCheckBoxes()}
+          .row
+            ${this.renderCheckBoxes()}
+          br
+          br
           ${this.renderProjects()}
     `}
 
     renderCheckBoxes() {
+      const selectables = ["Philosophy", "Mind", "Ethics", "Metaethics", "Programming", "Games and Sims", "AI"]
       return pug`
-        span
-          label Philosophy
-          .button
-          label Ethics
-          .button
-          label Metaethics
-          .button
+        .row
+          = selectables.map(this.renderSelectable.bind(this))
       `
     }
 
+    renderSelectable(name) {
+      return pug`
+        span.select-option
+          label= name
+          .button(
+            onClick=${this.handleSelect.bind(null, name.toLowerCase())}
+            className=${this.state.selectedFields.indexOf(name.toLowerCase()) !== -1 && "selected"}
+        )
+      `
+    }
     renderProjects() {
-      return ProjectStore.all.map(project => (
+      return ProjectStore.filter(this.state.selectedFields).map(project => (
         pug`
           ProjectCard(
             image=${project.image},
@@ -37,6 +50,13 @@ class IndexPage extends React.Component {
           )
         `
       ))
+    }
+
+    handleSelect = ( field ) => {
+      let fields = this.state.selectedFields;
+      if (fields.indexOf(field) == -1) { fields.push(field) }
+      else { fields.splice(fields.indexOf(field), 1);}
+      this.setState({ selectedFields: fields })
     }
 }
 
