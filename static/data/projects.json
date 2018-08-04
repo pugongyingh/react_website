@@ -4,57 +4,68 @@
     {
       "title": "Piper",
       "description": "Game in which you must move titles to connect pipes before time runs out. Inspired by nostalgia for [Pipe Mania](https://en.wikipedia.org/wiki/Pipe_Mania).\n\nFinal JavaScript project at App Academy. \n\n[Live](http://www.derekshiller.com/piper/piper.php)\n\n[Github](https://github.com/dcshiller/piper)",
-      "image": "/static/assets/images/Piper.png"
+      "image": "/static/assets/images/Piper.png",
+      "tags": ["games and sims", "Philosophy"]
     },
     {
       "title": "Turing Machine Simulator",
       "description": "Turing Machine Simulator\n\n **Test** ",
-      "image": "/static/assets/images/TuringMachineSimulator.png"
+      "image": "/static/assets/images/TuringMachineSimulator.png",
+      "tags": ["games and sims"]
     },
     {
       "title": "Neural Network Project",
       "description": "A javascript neural network builder",
-      "image": "/static/assets/images/nnp.png"
+      "image": "/static/assets/images/nnp.png",
+      "tags": ["games and sims"]
     },
     {
       "title": "Where Do They Publish?",
       "description": "Piper Desc,",
-      "image": "/static/assets/images/WDTP.png"
+      "image": "/static/assets/images/WDTP.png",
+      "tags": ["games and sims"]
     },
     {
       "title": "Philosophy Data Project",
       "description": "Piper Desc,",
-      "image": "/static/assets/images/pdp.png"
+      "image": "/static/assets/images/pdp.png",
+      "tags": ["games and sims"]
     },
     {
       "title": "ForMu",
       "description": "Test Project",
-      "image": "/static/assets/images/ForMu.png"
+      "image": "/static/assets/images/ForMu.png",
+      "tags": ["games and sims"]
     },
     {
       "title": "A Primitive Solution to the Negation Problem",
       "description": "Paper",
-      "image": "/static/assets/images/Piper.png"
+      "image": "/static/assets/images/Piper.png",
+      "tags": ["games and sims"]
     },
     {
       "title": "The Unity of Moral Attitudes",
       "description": "Paper",
-      "image": "/static/assets/images/Piper.png"
+      "image": "/static/assets/images/Piper.png",
+      "tags": ["games and sims"]
     },
     {
       "title": "In Defense of Artificial Replacement",
       "description": "Paper",
-      "image": "/static/assets/images/Piper.png"
+      "image": "/static/assets/images/Piper.png",
+      "tags": ["games and sims"]
     },
     {
       "title": "Hidden Qualia",
       "description": "Paper",
-      "image": "/static/assets/images/Piper.png"
+      "image": "/static/assets/images/Piper.png",
+      "tags": ["games and sims"]
     },
     {
       "title": "The Problem of Other Attitudes",
       "description": "Paper",
-      "image": "/static/assets/images/Piper.png"
+      "image": "/static/assets/images/Piper.png",
+      "tags": ["games and sims"]
     }
   ]
 }
