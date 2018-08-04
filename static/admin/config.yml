@@ -11,7 +11,7 @@ collections:
     files:
       - name: projects
         label: Projects
-        file: "static/projects.json"
+        file: "static/data/projects.json"
         fields:
           - label: Title
             name: title
