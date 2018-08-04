@@ -3,7 +3,7 @@
   "projects": [
     {
       "title": "Piper",
-      "description": "Final JavaScript project at App Academy. \n\nSpin on [Pipe Mania](https://en.wikipedia.org/wiki/Pipe_Mania).\n\n[Live](http://www.derekshiller.com/piper/piper.php)\n\n[Github](https://github.com/dcshiller/piper)",
+      "description": "Game in which you must move titles to connect pipes before time runs out. Inspired by nostalgia for [Pipe Mania](https://en.wikipedia.org/wiki/Pipe_Mania).\n\nFinal JavaScript project at App Academy. \n\n[Live](http://www.derekshiller.com/piper/piper.php)\n\n[Github](https://github.com/dcshiller/piper)",
       "image": "/static/assets/images/Piper.png"
     },
     {
