@@ -3,69 +3,58 @@
   "projects": [
     {
       "title": "Piper",
-      "description": "Piper Desc,",
-      "image": "/static/assets/images/Piper.png",
-      "tags": ["programming", "games and sims"]
+      "description": "Final JavaScript project at App Academy. \n\nSpin on [Pipe Mania](https://en.wikipedia.org/wiki/Pipe_Mania).\n\n[Live](http://www.derekshiller.com/piper/piper.php)\n\n[Github](https://github.com/dcshiller/piper)",
+      "image": "/static/assets/images/Piper.png"
     },
     {
       "title": "Turing Machine Simulator",
       "description": "Turing Machine Simulator\n\n **Test** ",
-      "image": "/static/assets/images/TuringMachineSimulator.png",
-      "tags": ["programming", "games and sims"]
+      "image": "/static/assets/images/TuringMachineSimulator.png"
     },
     {
       "title": "Neural Network Project",
       "description": "A javascript neural network builder",
-      "image": "/static/assets/images/nnp.png",
-      "tags": ["programming", "games and sims", "mind", "artificial intelligence"]
+      "image": "/static/assets/images/nnp.png"
     },
     {
       "title": "Where Do They Publish?",
       "description": "Piper Desc,",
-      "image": "/static/assets/images/WDTP.png",
-      "tags": ["programming", "academia", "philosophy"]
+      "image": "/static/assets/images/WDTP.png"
     },
     {
       "title": "Philosophy Data Project",
       "description": "Piper Desc,",
-      "image": "/static/assets/images/pdp.png",
-      "tags": ["programming", "academia", "philosophy"]
+      "image": "/static/assets/images/pdp.png"
     },
     {
       "title": "ForMu",
       "description": "Test Project",
-      "image": "/static/assets/images/ForMu.png",
-      "tags": ["programming"]
+      "image": "/static/assets/images/ForMu.png"
     },
     {
       "title": "A Primitive Solution to the Negation Problem",
       "description": "Paper",
-      "image": "/static/assets/images/Piper.png",
-      "tags": ["papers", "philosophy", "metaethics"]
+      "image": "/static/assets/images/Piper.png"
     },
     {
       "title": "The Unity of Moral Attitudes",
       "description": "Paper",
-      "image": "/static/assets/images/Piper.png",
-      "tags": ["papers", "philosophy", "metaethics", "mind"]
+      "image": "/static/assets/images/Piper.png"
     },
     {
       "title": "In Defense of Artificial Replacement",
       "description": "Paper",
-      "image": "/static/assets/images/Piper.png",
-      "tags": ["papers", "philosophy", "ai", "ethics"]
+      "image": "/static/assets/images/Piper.png"
     },
     {
       "title": "Hidden Qualia",
       "description": "Paper",
-      "image": "/static/assets/images/Piper.png",
-      "tags": ["papers", "philosophy", "mind"]
+      "image": "/static/assets/images/Piper.png"
     },
     {
       "title": "The Problem of Other Attitudes",
       "description": "Paper",
-      "image": "/static/assets/images/Piper.png",
-      "tags": ["papers", "philosophy", "mind"]
+      "image": "/static/assets/images/Piper.png"
     }
   ]
 }
