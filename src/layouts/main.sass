@@ -3,6 +3,8 @@ $secondary-color: #1f1815
 
 $large-padding: 2em
 $small-padding: 1em
+$header-height: 10em
+$footer-height: 4em
 
 =dark
   color: $primary-color
@@ -15,6 +17,7 @@ nav
   +dark
   background: $secondary-color
   padding: 2em
+  height: $header-height
 
   display: grid
   grid-template-rows: 100px
@@ -31,6 +34,9 @@ nav
 .section-content
   width: 80vw
   margin: auto
+
+.content
+  min-height: calc(100vh - $header-height - $footer-height);
 
 .project-card
   background: #ffffff5c;
@@ -73,7 +79,7 @@ nav
 	width: 100%
 	color: $primary-color
 	bottom: 0
-	height: 4em
+	height: $footer-height
 	padding: 1em
 	background: $secondary-color
 

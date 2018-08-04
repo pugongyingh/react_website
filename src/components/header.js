@@ -6,7 +6,7 @@ const Header = () => (
   nav
     div
       h1 Derek Shiller
-      h5 Web Developer / Philosopher
+      h5 Web Developer / Philosophical Dilettante
     img.avatar(src="/static/assets/images/avatar.jpg")
   `
 )
