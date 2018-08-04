@@ -89,7 +89,7 @@
     {
       "title": "Hidden Qualia",
       "description": "Paper",
-      "image": "/static/assets/images/Piper.png",
+      "image": "/public/papers.png",
       "tags": [
         "philosophy",
         "mind"
