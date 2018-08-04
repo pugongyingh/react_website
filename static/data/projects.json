@@ -3,69 +3,107 @@
   "projects": [
     {
       "title": "Piper",
-      "description": "Game in which you must move titles to connect pipes before time runs out. Inspired by nostalgia for [Pipe Mania](https://en.wikipedia.org/wiki/Pipe_Mania).\n\nFinal JavaScript project at App Academy. \n\n[Live](http://www.derekshiller.com/piper/piper.php)\n\n[Github](https://github.com/dcshiller/piper)",
+      "description": "Game in which you must move titles to connect pipes before time runs out. Inspired by nostalgia for [Pipe Mania](https://en.wikipedia.org/wiki/Pipe_Mania).\n\nFinal JavaScript project at App Academy. \n\n\n\n\n\n[Live](http://www.derekshiller.com/piper/piper.php)  [Github](https://github.com/dcshiller/piper)",
       "image": "/static/assets/images/Piper.png",
-      "tags": ["games and sims", "Philosophy"]
+      "tags": [
+        "games and sims",
+        "programming"
+      ]
     },
     {
       "title": "Turing Machine Simulator",
-      "description": "Turing Machine Simulator\n\n **Test** ",
+      "description": "A program for creating and running Turing machine programs. This is an experiment for what can be done inside a terminal.\n\n\n\n\n\n\n\n[Github](Github)",
       "image": "/static/assets/images/TuringMachineSimulator.png",
-      "tags": ["games and sims"]
+      "tags": [
+        "games and sims",
+        "programming"
+      ]
     },
     {
       "title": "Neural Network Project",
-      "description": "A javascript neural network builder",
+      "description": "A JavaScript tool for building neural networks. \n\nThe networks can be hooked up to control the movements of an artificial creature.\n\n\n\n\n\n[Live](http://www.derekshiller.com/nnp/nnp.html)  [Github](http://github.com/dcshiller/nnp)",
       "image": "/static/assets/images/nnp.png",
-      "tags": ["games and sims"]
+      "tags": [
+        "games and sims",
+        "programming",
+        "mind",
+        "ai"
+      ]
     },
     {
       "title": "Where Do They Publish?",
       "description": "Piper Desc,",
       "image": "/static/assets/images/WDTP.png",
-      "tags": ["games and sims"]
+      "tags": [
+        "philosophy",
+        "academia"
+      ]
     },
     {
       "title": "Philosophy Data Project",
-      "description": "Piper Desc,",
+      "description": "Web database for philosophy data\n\n\n\nWritten in Rails\n\n[Github](http://github.com/dcshiller/philosophydataproject)",
       "image": "/static/assets/images/pdp.png",
-      "tags": ["games and sims"]
+      "tags": [
+        "philosophy",
+        "academia"
+      ]
     },
     {
       "title": "ForMu",
-      "description": "Test Project",
+      "description": "Final project at App Academy.\n\n\n\n[Live](http://formu.derekshiller.com/) [Github](http://github.com/dcshiller/formu)",
       "image": "/static/assets/images/ForMu.png",
-      "tags": ["games and sims"]
+      "tags": [
+        "programming"
+      ]
     },
     {
       "title": "A Primitive Solution to the Negation Problem",
       "description": "Paper",
       "image": "/static/assets/images/Piper.png",
-      "tags": ["games and sims"]
+      "tags": [
+        "philosophy",
+        "ethics",
+        "metaethics"
+      ]
     },
     {
       "title": "The Unity of Moral Attitudes",
       "description": "Paper",
       "image": "/static/assets/images/Piper.png",
-      "tags": ["games and sims"]
+      "tags": [
+        "philosophy",
+        "metaethics",
+        "mind"
+      ]
     },
     {
       "title": "In Defense of Artificial Replacement",
       "description": "Paper",
       "image": "/static/assets/images/Piper.png",
-      "tags": ["games and sims"]
+      "tags": [
+        "philosophy",
+        "ethics",
+        "ai"
+      ]
     },
     {
       "title": "Hidden Qualia",
       "description": "Paper",
       "image": "/static/assets/images/Piper.png",
-      "tags": ["games and sims"]
+      "tags": [
+        "philosophy",
+        "mind"
+      ]
     },
     {
       "title": "The Problem of Other Attitudes",
       "description": "Paper",
       "image": "/static/assets/images/Piper.png",
-      "tags": ["games and sims"]
+      "tags": [
+        "philosophy",
+        "metaethics",
+        "mind"
+      ]
     }
   ]
 }
