@@ -27,4 +27,6 @@ collections:
               - label: Image
                 name: image
                 widget: image
-
+              - label: Tags
+                name: tags
+                widget: list
