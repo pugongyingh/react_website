@@ -9,6 +9,18 @@ collections:
   - label: data
     name: data
     files:
+      - name: files
+        label: Files
+        file: "static/data/files.json"
+        fields:
+          - label: Title
+            name: title
+          - label: CV
+            name: cv
+            widget: file
+          - label: Resume
+            name: resume
+            widget: file
       - name: projects
         label: Projects
         file: "static/data/projects.json"
@@ -30,3 +42,6 @@ collections:
               - label: Tags
                 name: tags
                 widget: list
+              - label: File
+                name: file
+                widget: file

@@ -59,7 +59,7 @@
     {
       "title": "A Primitive Solution to the Negation Problem",
       "description": "Paper",
-      "image": "/static/assets/images/Piper.png",
+      "image": "",
       "tags": [
         "philosophy",
         "ethics",
@@ -69,7 +69,7 @@
     {
       "title": "The Unity of Moral Attitudes",
       "description": "Paper",
-      "image": "/static/assets/images/Piper.png",
+      "image": "",
       "tags": [
         "philosophy",
         "metaethics",
@@ -79,7 +79,7 @@
     {
       "title": "In Defense of Artificial Replacement",
       "description": "Paper",
-      "image": "/static/assets/images/Piper.png",
+      "image": "",
       "tags": [
         "philosophy",
         "ethics",
@@ -88,7 +88,7 @@
     },
     {
       "title": "Hidden Qualia",
-      "description": "Paper",
+      "": "Paper",
       "image": "/assets/page.png",
       "tags": [
         "philosophy",
@@ -98,7 +98,7 @@
     {
       "title": "The Problem of Other Attitudes",
       "description": "Paper",
-      "image": "/static/assets/images/Piper.png",
+      "image": "",
       "tags": [
         "philosophy",
         "metaethics",
