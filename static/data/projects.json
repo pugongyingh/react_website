@@ -12,7 +12,7 @@
     },
     {
       "title": "Turing Machine Simulator",
-      "description": "A program for creating and running Turing machine programs. This is an experiment for what can be done inside a terminal.\n\n\n\n\n\n\n\n[Github](Github)",
+      "description": "Written in ruby, this program allows the user to create and run Turing machine programs from the terminal. This little program can solve any problem! \n\nThis was developed as an experiment for what could be done in a terminal. \n\n[Github](Github)",
       "image": "/static/assets/images/TuringMachineSimulator.png",
       "tags": [
         "games and sims",
@@ -21,7 +21,7 @@
     },
     {
       "title": "Neural Network Project",
-      "description": "A JavaScript tool for building neural networks. \n\nThe networks can be hooked up to control the movements of an artificial creature.\n\n\n\n\n\n[Live](http://www.derekshiller.com/nnp/nnp.html)  [Github](http://github.com/dcshiller/nnp)",
+      "description": "This program is a vanilla JavaScript tool for building neural networks that can be hooked up to control the movements of a simple artificial creature. Inspired by the ediacaran trace fossils.\n\nNetworks are drawn on an html canvas that accommodates zooming and scrolling and are controlled with an mvc code architecture.\n\n[Live](http://www.derekshiller.com/nnp/nnp.html)  [Github](http://github.com/dcshiller/nnp)",
       "image": "/static/assets/images/nnp.png",
       "tags": [
         "games and sims",
@@ -32,7 +32,7 @@
     },
     {
       "title": "Where Do They Publish?",
-      "description": "Piper Desc,",
+      "description": "A tool written as an experiment with Go. This program queries for articles by author and compiles them, listing where the given authors publish. The data is very incomplete.\n\n[live](http://wheredotheypublish.derekshiller.com)",
       "image": "/static/assets/images/WDTP.png",
       "tags": [
         "philosophy",
@@ -41,7 +41,7 @@
     },
     {
       "title": "Philosophy Data Project",
-      "description": "Web database for philosophy data\n\n\n\nWritten in Rails\n\n[Github](http://github.com/dcshiller/philosophydataproject)",
+      "description": "A web database for storing philosophy data in a way that is easy to access. Written in Rails.\n\n[Github](http://github.com/dcshiller/philosophydataproject)",
       "image": "/static/assets/images/pdp.png",
       "tags": [
         "philosophy",
@@ -50,7 +50,7 @@
     },
     {
       "title": "ForMu",
-      "description": "Final project at App Academy.\n\n\n\n[Live](http://formu.derekshiller.com/) [Github](http://github.com/dcshiller/formu)",
+      "description": "Final project at App Academy. React + Rails project for making and sharing forms. Modeled on WuFoo.\n\n[Live](http://formu.derekshiller.com/) [Github](http://github.com/dcshiller/formu)",
       "image": "/static/assets/images/ForMu.png",
       "tags": [
         "programming"
@@ -63,7 +63,8 @@
       "tags": [
         "philosophy",
         "ethics",
-        "metaethics"
+        "metaethics",
+        "papers"
       ]
     },
     {
@@ -73,7 +74,8 @@
       "tags": [
         "philosophy",
         "metaethics",
-        "mind"
+        "mind",
+        "papers"
       ],
       "file": "/assets/recipesemanticsfinal.doc"
     },
@@ -84,7 +86,8 @@
       "tags": [
         "philosophy",
         "ethics",
-        "ai"
+        "ai",
+        "papers"
       ],
       "file": "/assets/shiller.indefenseofartificialreplacement.pdf"
     },
@@ -94,7 +97,8 @@
       "image": "",
       "tags": [
         "philosophy",
-        "mind"
+        "mind",
+        "papers"
       ],
       "file": "/assets/derekshiller.hiddenqualia.pdf"
     },
@@ -105,7 +109,8 @@
       "tags": [
         "philosophy",
         "metaethics",
-        "mind"
+        "mind",
+        "papers"
       ],
       "file": "/assets/derekshiller.aprimitivesolutiontothenegationproblem.pdf"
     }
