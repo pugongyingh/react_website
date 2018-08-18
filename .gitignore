@@ -2,7 +2,8 @@
 .cache
 node_modules
 yarn-error.log
-
+*.swp
+*.swo
 # Build directory
 .DS_Store
 public/

@@ -7,6 +7,7 @@ $header-height: 10em
 $footer-height: 4em
 
 $tablet: 700px;
+$desktop: 1000px;
 
 a
   color: inherit
@@ -36,10 +37,22 @@ nav
     width: 300px
     top: 0
     left: 0
-
+  h5
+    position: absolute
+    width: 100vw
+    @media screen and (min-width: $tablet)
+      position: relative
+      width: auto
+.no-break
+  white-space: nowrap;
 .avatar
   border-radius: 5px
   width: 20vw
+  @media screen and (min-width: $tablet)
+    width: 80px;
+    position: fixed;
+    top: 40px;
+    left: 190px;
 
 .section
   padding: $large-padding
@@ -56,24 +69,28 @@ nav
     max-width: calc(100vw - $header-height);
 
 .project-card
-  background: #ffffff5c;
-  border: 1px solid lightgrey
+  //background: #ffffff5c;
+  //border: 1px solid lightgrey
   padding: $large-padding
   display: flex
   flex-direction: column
   margin-left: 300px
   margin: 20px 0
   max-width: calc(100vw - $header-height);
-  @media (min-width: $tablet)
+  @media (min-width: $desktop)
     display: grid
-    grid-template-columns: 28vw auto
+    grid-template-columns: calc(18vw + 100px) auto
 
 
   &__image
     border: 2px solid $secondary-color
+  .column + .project-card__info
+      grid-column-start: 2
 
   &__info
     padding: 0 1em
+    grid-column-start: 1
+    grid-column-end: 3
 
   &__title
     grid-column-start: 1
@@ -84,12 +101,19 @@ nav
   flex-direction: row
   flex-wrap: wrap
 
+.column
+  display: flex
+  flex-direction: column
+  justify-content: space-around
+
 .select-option
-  display: flex;
   align-items: center;
-  width: 175px
-  justify-content: space-between;
   cursor: pointer
+  display: flex;
+  justify-content: space-between;
+  text-transform: capitalize;
+  font-size: .9em;
+  width: 175px
 
 
 .button
@@ -138,5 +162,6 @@ nav
   position: absolute
   top: 1px
   left: 4px
-  font-size: .7em;
+  font-size: .7em
   color: $secondary-color
+
