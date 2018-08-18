@@ -10,11 +10,10 @@ const ProjectCard = ({image, file, title, description}) => (
         if file && file !== ""
           span &nbsp
           a(href=${file})
-            FontAwesomeIcon(icon=${faFile})
-      if image !== ""
-        .column
-          img.project-card__image(src=${image})
+            FontAwesomeIcon.download(icon=${faFile})
       .project-card__info
+        if image !== ""
+          img.project-card__image(src=${image})
         ReactMarkdown(source=${description})
   `
 )

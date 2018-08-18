@@ -8,7 +8,7 @@ const Header = () => (
       h1 Derek Shiller
       h5
         | Web Developer / 
-        span.no-break Philosophical Dilettante
+        span.no-break Dilettante Philosopher
     img.avatar(src="/static/assets/images/avatar.jpg")
   `
 )
