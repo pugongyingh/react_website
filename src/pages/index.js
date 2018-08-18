@@ -2,6 +2,8 @@ import React from 'react'
 import Section from '../components/section'
 import ProjectCard from '../components/projectCard'
 import ProjectStore from '../models/ProjectStore'
+import ReactCSSTransitionGroup from 'react-addons-css-transition-group'; // ES6
+
 class IndexPage extends React.Component {
   constructor() {
     super();
@@ -19,7 +21,17 @@ class IndexPage extends React.Component {
             ${this.renderCheckBoxes()}
           br
           br
-          ${this.renderProjects()}
+          ReactCSSTransitionGroup(
+            transitionName=${ {
+              enter: 'bounce',
+              enterActive: 'fadeIn',
+              leave: 'fadeOut',
+              leaveActive: 'leaveActive',
+            } }
+            transitionEnterTimeout=${500}
+            transitionLeaveTimeout=${500}
+          )
+            ${this.renderProjects()}
     `}
 
     renderCheckBoxes() {
@@ -46,6 +58,7 @@ class IndexPage extends React.Component {
           ProjectCard(
             image=${project.image},
             description=${project.description},
+            key=${project.title},
             title=${project.title},
           )
         `
