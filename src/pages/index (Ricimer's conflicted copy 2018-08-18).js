@@ -35,11 +35,11 @@ class IndexPage extends React.Component {
     `}
 
     renderCheckBoxes() {
-      const selectables = ["Philosophy", "Mind", "Ethics", "Metaethics", "Programming", "Games and Sims", "AI"]
+      const selectables = ProjectStore.getTags();
       return pug`
         .row
           = selectables.map(this.renderSelectable.bind(this))
-      `
+      `;
     }
 
     renderSelectable(name) {
@@ -47,10 +47,10 @@ class IndexPage extends React.Component {
         span.select-option
           label= name
           .button(
-            onClick=${this.handleSelect.bind(null, name.toLowerCase())}
-            className=${this.state.selectedFields.indexOf(name.toLowerCase()) !== -1 && "selected"}
+            onClick=${this.handleSelect.bind(null, name)}
+            className=${this.state.selectedFields.indexOf(name) !== -1 && "selected"}
         )
-      `
+      `;
     }
     renderProjects() {
       return ProjectStore.filter(this.state.selectedFields).map(project => (
@@ -59,7 +59,6 @@ class IndexPage extends React.Component {
             image=${project.image},
             description=${project.description},
             key=${project.title},
-            file=${project.file},
             title=${project.title},
           )
         `

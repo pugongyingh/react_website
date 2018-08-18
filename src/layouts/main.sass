@@ -37,6 +37,8 @@ nav
     width: 300px
     top: 0
     left: 0
+  h1
+    text-align: left
   h5
     position: absolute
     width: 100vw
@@ -55,8 +57,13 @@ nav
     left: 190px;
 
 .section
-  padding: $large-padding
+  padding-left: 0
+  padding-right: 0
+  padding-top: $large-padding
+  padding-bottom: $large-padding
   width: 100%
+  @media (min-width: $tablet)
+    padding: $large-padding
 
 .section-content
   width: 80%
@@ -67,6 +74,10 @@ nav
   @media (min-width: $tablet)
     margin-left: 300px
     max-width: calc(100vw - $header-height);
+h1
+  text-align: center
+  @media (min-width: $tablet)
+    text-align: left
 
 .project-card
   //background: #ffffff5c;
@@ -107,12 +118,16 @@ nav
   justify-content: space-around
 
 .select-option
-  display: flex;
-  align-items: center;
-  width: 175px
-  justify-content: space-between;
+  align-items: center
   cursor: pointer
-
+  display: flex
+  justify-content: space-between
+  text-transform: capitalize
+  font-size: .9em
+  width: 175px
+  margin: auto
+  @media (min-width: 517px)
+    margin: inherit
 
 .button
   border: 1px solid grey
