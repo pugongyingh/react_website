@@ -6,25 +6,25 @@
       "description": "Game in which you must move titles to connect pipes before time runs out. Inspired by nostalgia for [Pipe Mania](https://en.wikipedia.org/wiki/Pipe_Mania).\n\nFinal JavaScript project at App Academy. \n\n\n\n\n\n[Live](http://www.derekshiller.com/piper/piper.php)  [Github](https://github.com/dcshiller/piper)",
       "image": "/static/assets/images/Piper.png",
       "tags": [
-        "games and sims",
+        "games/sims",
         "programming"
       ]
     },
     {
       "title": "Turing Machine Simulator",
-      "description": "Written in ruby, this program allows the user to create and run Turing machine programs from the terminal. This little program can solve any problem! \n\nThis was developed as an experiment for what could be done in a terminal. \n\n[Github](Github)",
+      "description": "Written in ruby, this program allows the user to create and run Turing machine programs from the terminal. This little program can solve any problem! \n\nThis was developed as an experiment for what could be done in a terminal. \n\n[Github](http://www.github.com/dshiller/turingmachine)",
       "image": "/static/assets/images/TuringMachineSimulator.png",
       "tags": [
-        "games and sims",
+        "games/sims",
         "programming"
       ]
     },
     {
       "title": "Neural Network Project",
-      "description": "This program is a vanilla JavaScript tool for building neural networks that can be hooked up to control the movements of a simple artificial creature. Inspired by the ediacaran trace fossils.\n\nNetworks are drawn on an html canvas that accommodates zooming and scrolling and are controlled with an mvc code architecture.\n\n[Live](http://www.derekshiller.com/nnp/nnp.html)  [Github](http://github.com/dcshiller/nnp)",
+      "description": "A JavaScript tool for building neural networks. The networks can be hooked up to control the movements of a simple artificial creature. Inspired by the ediacaran trace fossils.\n\nNetworks are drawn on an html canvas that accommodates zooming and scrolling.\n\n[Live](http://www.derekshiller.com/nnp/nnp.html)  [Github](http://github.com/dcshiller/nnp)",
       "image": "/static/assets/images/nnp.png",
       "tags": [
-        "games and sims",
+        "games/sims",
         "programming",
         "mind",
         "ai"
@@ -41,7 +41,7 @@
     },
     {
       "title": "Philosophy Data Project",
-      "description": "A web database for storing philosophy data in a way that is easy to access. Written in Rails.\n\n[Github](http://github.com/dcshiller/philosophydataproject)",
+      "description": "A web database for storing philosophy data in a way that is easy to access. Written in Rails. \n\nCurrently down.\n\n[Github](http://github.com/dcshiller/philosophydataproject)",
       "image": "/static/assets/images/pdp.png",
       "tags": [
         "philosophy",
@@ -50,7 +50,7 @@
     },
     {
       "title": "ForMu",
-      "description": "Final project at App Academy. React + Rails project for making and sharing forms. Modeled on WuFoo.\n\n[Live](http://formu.derekshiller.com/) [Github](http://github.com/dcshiller/formu)",
+      "description": "React + Rails project for making and sharing forms. Modeled on WuFoo.\n\n\n\nFinal rails project at App Academy. \n\n[Live](http://formu.derekshiller.com/) [Github](http://github.com/dcshiller/formu)",
       "image": "/static/assets/images/ForMu.png",
       "tags": [
         "programming"
@@ -69,7 +69,7 @@
     },
     {
       "title": "The Unity of Moral Attitudes",
-      "description": "Noncognitivists are known to face a problem in extending their account of straightforward predicative moral judgments to logically complex moral judgments. This paper presents a related problem concerning how noncognitivists might extend their accounts of moral judgments to other kinds of moral attitudes, such as moral hopes and moral intuitions. Noncognitivists must solve three separate challenges: they must explain the natures of these other attitudes, they must explain why they count as moral attitudes, and they must explain why the moral attitudes are systematically correlated with ordinary propositional attitudes. After presenting the problem, several contemporary theories with some initial promise for solving it are examined and found to be insufficient.",
+      "description": "This paper offers my solution to the problem explored in my  'The Problem of Other Attitudes'. According to this solution, moral attitudes are distinguished by their functional properties in a restricted range of contexts, and by the the resemblance of their ingredients in other contexts.",
       "image": "",
       "tags": [
         "philosophy",
@@ -93,7 +93,7 @@
     },
     {
       "title": "Hidden Qualia",
-      "description": "In this paper, I propose that those who reject higher-order theories of consciousness should not rule out the possibility of having conscious experiences that they cannot introspect. I begin by offering four arguments that such non-introspectible conscious experiences are possible. Next, I offer two arguments for thinking that we actually have such experiences. According to the first argument  it is unlikely that evolution would have furnished us with a faculty of introspection that worked flawlessly. According to the second argument, there are many plausible potential sources of non-introspectible experiences. Given that all of these sources are at least somewhat plausible, it is fairly probable that we have some kind or other. Finally, I consider whether we might be justified in believing that we can introspect all of our conscious experiences if in fact we can. I show that current approaches to justifying belief in epiphenomenal qualia do not carry over. The upshot of these arguments is that we should be less certain that we really know what it feels like to be us. There may be much more to our experiences than we are aware of.",
+      "description": "In this paper, I propose that those who reject higher-order theories of consciousness should not rule out the possibility of having conscious experiences that they cannot introspect.",
       "image": "",
       "tags": [
         "philosophy",
@@ -104,7 +104,7 @@
     },
     {
       "title": "The Problem of Other Attitudes",
-      "description": "Noncognitivists are known to face a problem in extending their account of straightforward predicative moral judgments to logically complex moral judgments. This paper presents a related problem concerning how noncognitivists might extend their accounts of moral judgments to other kinds of moral attitudes, such as moral hopes and moral intuitions. Noncognitivists must solve three separate challenges: they must explain the natures of these other attitudes, they must explain why they count as moral attitudes, and they must explain why the moral attitudes are systematically correlated with ordinary propositional attitudes. After presenting the problem, the paper examines several contemporary theories with some initial promise for solving it and argues that they are insufficient.",
+      "description": "This paper presents a related problem concerning how noncognitivists might extend their accounts of moral judgments to other kinds of moral attitudes, such as moral hopes and moral intuitions. After presenting the problem, several contemporary theories with some initial promise for solving it are examined and found to be insufficient.",
       "image": "",
       "tags": [
         "philosophy",
