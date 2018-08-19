@@ -21,7 +21,7 @@
     },
     {
       "title": "Neural Network Project",
-      "description": "This program is a vanilla JavaScript tool for building neural networks that can be hooked up to control the movements of a simple artificial creature. Inspired by the ediacaran trace fossils.\n\nNetworks are drawn on an html canvas that accommodates zooming and scrolling and are controlled with an mvc code architecture.\n\n[Live](http://www.derekshiller.com/nnp/nnp.html)  [Github](http://github.com/dcshiller/nnp)",
+      "description": "A JavaScript tool for building neural networks. The networks can be hooked up to control the movements of a simple artificial creature. Inspired by the ediacaran trace fossils.\n\nNetworks are drawn on an html canvas that accommodates zooming and scrolling.\n\n[Live](http://www.derekshiller.com/nnp/nnp.html)  [Github](http://github.com/dcshiller/nnp)",
       "image": "/static/assets/images/nnp.png",
       "tags": [
         "games/sims",
@@ -41,7 +41,7 @@
     },
     {
       "title": "Philosophy Data Project",
-      "description": "A web database for storing philosophy data in a way that is easy to access. Written in Rails.\n\n[Github](http://github.com/dcshiller/philosophydataproject)",
+      "description": "A web database for storing philosophy data in a way that is easy to access. Written in Rails. \n\nCurrently down.\n\n[Github](http://github.com/dcshiller/philosophydataproject)",
       "image": "/static/assets/images/pdp.png",
       "tags": [
         "philosophy",
@@ -50,7 +50,7 @@
     },
     {
       "title": "ForMu",
-      "description": "Final project at App Academy. React + Rails project for making and sharing forms. Modeled on WuFoo.\n\n[Live](http://formu.derekshiller.com/) [Github](http://github.com/dcshiller/formu)",
+      "description": "React + Rails project for making and sharing forms. Modeled on WuFoo.\n\n\n\nFinal rails project at App Academy. \n\n[Live](http://formu.derekshiller.com/) [Github](http://github.com/dcshiller/formu)",
       "image": "/static/assets/images/ForMu.png",
       "tags": [
         "programming"
@@ -69,7 +69,7 @@
     },
     {
       "title": "The Unity of Moral Attitudes",
-      "description": "",
+      "description": "This paper offers my solution to the problem explored in my  'The Problem of Other Attitudes'. According to this solution, moral attitudes are distinguished by their functional properties in a restricted range of contexts, and by the the resemblance of their ingredients in other contexts.",
       "image": "",
       "tags": [
         "philosophy",
