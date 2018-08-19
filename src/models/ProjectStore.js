@@ -15,6 +15,7 @@ ProjectStore.prototype.getTags = function() {
 }
 
 ProjectStore.prototype.filter = function(tags) {
+  if (tags.length === 0) return [];
   return this.all.
     filter(proj => tags.every(tag => proj.tags.indexOf(tag) !== -1))
 }
