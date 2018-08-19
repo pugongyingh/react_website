@@ -116,7 +116,6 @@ h1
   display: flex
   flex-direction: row
   flex-wrap: wrap
-  justify-content: space-between
 
 .column
   display: flex
@@ -125,9 +124,7 @@ h1
 
 .select-option
   align-items: center
-  cursor: pointer
   display: flex
-  justify-content: space-between
   text-transform: capitalize
   font-size: .9em
   width: 175px
@@ -136,13 +133,18 @@ h1
     margin: inherit
 .button
   border: 1px solid grey
+  cursor: pointer
   display: inline-block
-  margin-left: 10px
-  margin-right: 20px
+  margin-left: 20px
+  margin-right: 10px
   height: 20px
   width: 20px
+  &[disabled]
+    border: 1px dashed lightgrey
+    pointer-events: none
+    cursor: not-allowed
   &.selected
-    background: $secondary-color;
+    background: $secondary-color
 
 .footer
   position: relative

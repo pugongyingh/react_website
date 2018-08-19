@@ -45,11 +45,12 @@ class IndexPage extends React.Component {
     renderSelectable(name) {
       return pug`
         span.select-option
-          label= name
           .button(
             onClick=${this.handleSelect.bind(null, name)}
             className=${this.state.selectedFields.indexOf(name) !== -1 && "selected"}
-        )
+            disabled=${ProjectStore.filter(this.state.selectedFields.concat([name])).length == 0}
+          )
+          label= name
       `;
     }
     renderProjects() {

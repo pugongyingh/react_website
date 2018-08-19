@@ -16,7 +16,8 @@ ProjectStore.prototype.getTags = function() {
 
 ProjectStore.prototype.filter = function(tags) {
   return this.all.
-    filter(proj => tags.some(tag => proj.tags.indexOf(tag) !== -1))
+    filter(proj => tags.every(tag => proj.tags.indexOf(tag) !== -1))
 }
+
 const instance  = new ProjectStore;
 export default instance;
