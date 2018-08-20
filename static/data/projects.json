@@ -27,7 +27,7 @@
         "games/sims",
         "programming",
         "mind",
-        "ai"
+        "a. i."
       ]
     },
     {
@@ -36,7 +36,8 @@
       "image": "/static/assets/images/WDTP.png",
       "tags": [
         "philosophy",
-        "academia"
+        "academia",
+        "programming"
       ]
     },
     {
@@ -45,7 +46,8 @@
       "image": "/static/assets/images/pdp.png",
       "tags": [
         "philosophy",
-        "academia"
+        "academia",
+        "programming"
       ]
     },
     {
@@ -62,7 +64,6 @@
       "image": "",
       "tags": [
         "philosophy",
-        "ethics",
         "metaethics",
         "papers"
       ]
@@ -86,7 +87,7 @@
       "tags": [
         "philosophy",
         "ethics",
-        "ai",
+        "a. i.",
         "papers"
       ],
       "file": "/assets/shiller.indefenseofartificialreplacement.pdf"
