@@ -8,8 +8,6 @@ $footer-height: 4em
 
 $tablet: 700px
 $desktop: 1000px
-$hover-color-light: lighten(red,40%)
-$hover-color-dark: darken(red,30%)
 
 a
   color: inherit
@@ -109,9 +107,9 @@ h1
     text-align: center
 
   .download
-    transition: color .5s
+    transition: transform .5s
     &:hover
-      color: $hover-color-dark
+      transform: scale(1.2)
 .row
   display: flex
   flex-direction: row
@@ -166,9 +164,9 @@ h1
   font-size: 1.5em
 
 .icon-row > *
-  transition: color .5s
+  transition: transform .3s
   &:hover
-    color: $hover-color-light
+    transform: scale(1.2)
 
 .icon-holder
   position: relative
