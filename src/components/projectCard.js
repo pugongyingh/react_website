@@ -12,7 +12,7 @@ const ProjectCard = ({image, file, title, description}) => (
           a(href=${file})
             FontAwesomeIcon.download(icon=${faFile})
       .project-card__info
-        if image !== ""
+        if image && image !== ""
           img.project-card__image(src=${image})
         ReactMarkdown(source=${description})
   `
