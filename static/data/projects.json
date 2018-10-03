@@ -115,6 +115,15 @@
         "papers"
       ],
       "file": "/assets/problemofattitudesapqfinal.pdf"
+    },
+    {
+      "title": "JSON tractatus",
+      "description": "A copy of Wittgenstein's Logico-Philosophicus, translated into English, in JSON format.",
+      "tags": [
+        "philosophy",
+        "data"
+      ],
+      "file": "/assets/tractatus.json"
     }
   ]
 }
