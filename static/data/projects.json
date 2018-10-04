@@ -118,7 +118,7 @@
     },
     {
       "title": "JSON tractatus",
-      "description": "A copy of Wittgenstein's Logico-Philosophicus, translated into English, in JSON format.",
+      "description": "A copy of Wittgenstein's Tractatus Logico-Philosophicus, translated into English, in JSON format.",
       "tags": [
         "philosophy",
         "data"
