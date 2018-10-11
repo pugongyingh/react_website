@@ -124,6 +124,11 @@
         "data"
       ],
       "file": "/assets/tractatus.json"
+    },
+    {
+      "title": "Argur",
+      "description": "Journal submission management website.\n\n[live](https://argur.derekshiller.com), [github](https://www.github.com/dcshiller/submission_organizer)",
+      "image": "/assets/screenshot-from-2018-10-11-17-12-51.png"
     }
   ]
 }
