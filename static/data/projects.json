@@ -127,7 +127,7 @@
     },
     {
       "title": "Argur",
-      "description": "Journal submission management website.\n\n[live](https://argur.derekshiller.com), [github](https://www.github.com/dcshiller/submission_organizer)",
+      "description": "Journal submission management website written in Ruby on Rails. Users can record submissions to journals and upload files associated with those submissions.\n\n[Live](http://argur.derekshiller.com), [Github](https://www.github.com/dcshiller/submission_organizer)",
       "image": "/assets/screenshot-from-2018-10-11-17-12-51.png",
       "tags": [
         "philosophy",
