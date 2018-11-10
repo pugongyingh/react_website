@@ -134,6 +134,10 @@
         "programming",
         "academia"
       ]
+    },
+    {
+      "title": "HTML Dom Element Data",
+      "description": "A collecton of style data drawn from all dom elements on pages I have browsed using a chrome extension and getComputedStyles(). In CSV format.\n\nAvailable [here](https://s3.us-east-2.amazonaws.com/dcs.bucket/dom_data.csv)."
     }
   ]
 }
