@@ -2,6 +2,75 @@
   "title": "Projects",
   "projects": [
     {
+      "title": "HTML Dom Element Data",
+      "description": "A collecton of style data drawn from all dom elements on pages I have browsed using a chrome extension and getComputedStyles(). In CSV format.\n\nAvailable [here](https://s3.us-east-2.amazonaws.com/dcs.bucket/dom_data.csv).",
+      "tags": [
+        "data"
+      ]
+    },
+    {
+      "title": "JSON tractatus",
+      "description": "A copy of Wittgenstein's Tractatus Logico-Philosophicus, translated into English, in JSON format.",
+      "tags": [
+        "philosophy",
+        "data"
+      ],
+      "file": "/assets/tractatus.json"
+    },
+    {
+      "title": "Argur",
+      "description": "Journal submission management website written in Ruby on Rails. Users can record submissions to journals and upload files associated with those submissions.\n\n[Live](http://argur.derekshiller.com), [Github](https://www.github.com/dcshiller/submission_organizer)",
+      "image": "/assets/screenshot-from-2018-10-11-17-12-51.png",
+      "tags": [
+        "philosophy",
+        "programming",
+        "academia"
+      ]
+    },
+    {
+      "title": "The Unity of Moral Attitudes",
+      "description": "Final version: Canadian Philosophy Review 2018\n\nThis paper offers my solution to the problem explored in my  'The Problem of Other Attitudes'. According to this solution, moral attitudes are distinguished by their functional properties in a restricted range of contexts, and by the the resemblance of their ingredients in other contexts.",
+      "image": "",
+      "tags": [
+        "philosophy",
+        "metaethics",
+        "mind",
+        "papers"
+      ],
+      "file": "/assets/recipesemanticsfinal.doc"
+    },
+    {
+      "title": "Neural Network Project",
+      "description": "A JavaScript tool for building neural networks. The networks can be hooked up to control the movements of a simple artificial creature. Inspired by the ediacaran trace fossils.\n\nNetworks are drawn on an html canvas that accommodates zooming and scrolling.\n\n[Live](http://www.derekshiller.com/nnp/nnp.html)  [Github](http://github.com/dcshiller/nnp)",
+      "image": "/static/assets/images/nnp.png",
+      "tags": [
+        "games/sims",
+        "programming",
+        "mind",
+        "a. i."
+      ]
+    },
+    {
+      "title": "Philosophy Data Project",
+      "description": "A web database for storing philosophy data in a way that is easy to access. Written in Rails. \n\nCurrently down.\n\n[Github](http://github.com/dcshiller/philosophydataproject)",
+      "image": "/static/assets/images/pdp.png",
+      "tags": [
+        "philosophy",
+        "academia",
+        "programming"
+      ]
+    },
+    {
+      "title": "Where Do They Publish?",
+      "description": "A tool written as an experiment with Go. This program queries for articles by author and compiles them, listing where the given authors publish. The data is very incomplete.\n\n[live](http://wheredotheypublish.derekshiller.com)",
+      "image": "/static/assets/images/WDTP.png",
+      "tags": [
+        "philosophy",
+        "academia",
+        "programming"
+      ]
+    },
+    {
       "title": "Piper",
       "description": "Game in which you must move titles to connect pipes before time runs out. Inspired by nostalgia for [Pipe Mania](https://en.wikipedia.org/wiki/Pipe_Mania).\n\nFinal JavaScript project at App Academy. \n\n\n\n\n\n[Live](http://www.derekshiller.com/piper/piper.php)  [Github](https://github.com/dcshiller/piper)",
       "image": "/static/assets/images/Piper.png",
@@ -20,66 +89,12 @@
       ]
     },
     {
-      "title": "Neural Network Project",
-      "description": "A JavaScript tool for building neural networks. The networks can be hooked up to control the movements of a simple artificial creature. Inspired by the ediacaran trace fossils.\n\nNetworks are drawn on an html canvas that accommodates zooming and scrolling.\n\n[Live](http://www.derekshiller.com/nnp/nnp.html)  [Github](http://github.com/dcshiller/nnp)",
-      "image": "/static/assets/images/nnp.png",
-      "tags": [
-        "games/sims",
-        "programming",
-        "mind",
-        "a. i."
-      ]
-    },
-    {
-      "title": "Where Do They Publish?",
-      "description": "A tool written as an experiment with Go. This program queries for articles by author and compiles them, listing where the given authors publish. The data is very incomplete.\n\n[live](http://wheredotheypublish.derekshiller.com)",
-      "image": "/static/assets/images/WDTP.png",
-      "tags": [
-        "philosophy",
-        "academia",
-        "programming"
-      ]
-    },
-    {
-      "title": "Philosophy Data Project",
-      "description": "A web database for storing philosophy data in a way that is easy to access. Written in Rails. \n\nCurrently down.\n\n[Github](http://github.com/dcshiller/philosophydataproject)",
-      "image": "/static/assets/images/pdp.png",
-      "tags": [
-        "philosophy",
-        "academia",
-        "programming"
-      ]
-    },
-    {
       "title": "ForMu",
       "description": "React + Rails project for making and sharing forms. Modeled on WuFoo.\n\n\n\nFinal rails project at App Academy. \n\n[Live](http://formu.derekshiller.com/) [Github](http://github.com/dcshiller/formu)",
       "image": "/static/assets/images/ForMu.png",
       "tags": [
         "programming"
       ]
-    },
-    {
-      "title": "A Primitive Solution to the Negation Problem",
-      "description": "Final version: [Ethical Theory and Moral Practice 2016](https://link.springer.com/article/10.1007/s10677-015-9670-9)\n\nA response to Unwin and Schroeder's Negation Problem. I make the case that metaethical expressivists should be unbothered by a large number of brute norms, and hence that they should be free to postulate their way out of the negation problem.",
-      "image": "",
-      "tags": [
-        "philosophy",
-        "metaethics",
-        "papers"
-      ],
-      "file": "/assets/derekshiller.aprimitivesolutiontothenegationproblem.pdf"
-    },
-    {
-      "title": "The Unity of Moral Attitudes",
-      "description": "Final version: Canadian Philosophy Review 2018\n\nThis paper offers my solution to the problem explored in my  'The Problem of Other Attitudes'. According to this solution, moral attitudes are distinguished by their functional properties in a restricted range of contexts, and by the the resemblance of their ingredients in other contexts.",
-      "image": "",
-      "tags": [
-        "philosophy",
-        "metaethics",
-        "mind",
-        "papers"
-      ],
-      "file": "/assets/recipesemanticsfinal.doc"
     },
     {
       "title": "In Defense of Artificial Replacement",
@@ -117,30 +132,15 @@
       "file": "/assets/problemofattitudesapqfinal.pdf"
     },
     {
-      "title": "JSON tractatus",
-      "description": "A copy of Wittgenstein's Tractatus Logico-Philosophicus, translated into English, in JSON format.",
+      "title": "A Primitive Solution to the Negation Problem",
+      "description": "Final version: [Ethical Theory and Moral Practice 2016](https://link.springer.com/article/10.1007/s10677-015-9670-9)\n\nA response to Unwin and Schroeder's Negation Problem. I make the case that metaethical expressivists should be unbothered by a large number of brute norms, and hence that they should be free to postulate their way out of the negation problem.",
+      "image": "",
       "tags": [
         "philosophy",
-        "data"
+        "metaethics",
+        "papers"
       ],
-      "file": "/assets/tractatus.json"
-    },
-    {
-      "title": "Argur",
-      "description": "Journal submission management website written in Ruby on Rails. Users can record submissions to journals and upload files associated with those submissions.\n\n[Live](http://argur.derekshiller.com), [Github](https://www.github.com/dcshiller/submission_organizer)",
-      "image": "/assets/screenshot-from-2018-10-11-17-12-51.png",
-      "tags": [
-        "philosophy",
-        "programming",
-        "academia"
-      ]
-    },
-    {
-      "title": "HTML Dom Element Data",
-      "description": "A collecton of style data drawn from all dom elements on pages I have browsed using a chrome extension and getComputedStyles(). In CSV format.\n\nAvailable [here](https://s3.us-east-2.amazonaws.com/dcs.bucket/dom_data.csv).",
-      "tags": [
-        "data"
-      ]
+      "file": "/assets/derekshiller.aprimitivesolutiontothenegationproblem.pdf"
     }
   ]
 }
