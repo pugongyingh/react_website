@@ -2,6 +2,15 @@
   "title": "Projects",
   "projects": [
     {
+      "title": "Interactionism for the discerning mind?",
+      "description": "Forthcoming in [Philosophical Studies](https://link.springer.com/article/10.1007/s11098-018-1213-5)\n\nI argue that interactionists have trouble making sense of how minds could influence the right neurons in a brain to produce the range of behaviors of which we are capable.",
+      "tags": [
+        "Philosophy",
+        "Mind",
+        "Papers"
+      ]
+    },
+    {
       "title": "HTML Dom Element Data",
       "description": "A collecton of style data drawn from all dom elements on pages I have browsed using a chrome extension and getComputedStyles(). In CSV format.\n\nAvailable [here](https://s3.us-east-2.amazonaws.com/dcs.bucket/dom_data.csv).",
       "tags": [
