@@ -1,0 +1,46 @@
+canvas {
+  background: ivory;
+}
+
+.title {
+  position: absolute;
+  top: -100px;
+  width: 100%;
+  font-size: 3rem !important;
+  display: none;
+}
+
+.present .title {
+  /*display: block;*/
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.picture-column {
+  display: flex;
+  width: 30%;
+  flex-direction: column;
+  align-items: center;
+}
+
+.reveal .picture-column img {
+  width: 100%;
+  max-width: 500px;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+ul.unmarked {
+  list-style-type: none !important;
+}
+
+strong {
+  color: red;
+}
+img {
+  width: 100%;
+}
