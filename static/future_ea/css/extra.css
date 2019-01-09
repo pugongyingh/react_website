@@ -44,3 +44,10 @@ strong {
 img {
   width: 100%;
 }
+
+.small * {
+  font-size: .88em !important;
+}
+.small strong {
+  color: white;
+}
