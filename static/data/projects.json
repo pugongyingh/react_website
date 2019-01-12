@@ -2,6 +2,17 @@
   "title": "Projects",
   "projects": [
     {
+      "title": "Happy Mice",
+      "description": "A game about trying to make mice happy.\n\n[Live](http://www.derekshiller.com/happy_mice)",
+      "image": "/assets/happy_mice.png",
+      "tags": [
+        "philosophy",
+        "ethics",
+        "games/sims",
+        "programming"
+      ]
+    },
+    {
       "title": "Interactionism for the discerning mind?",
       "description": "Forthcoming in [Philosophical Studies](https://link.springer.com/article/10.1007/s11098-018-1213-5)\n\nI argue that interactionists have trouble making sense of how minds could influence the right neurons in a brain to produce the range of behaviors of which we are capable.",
       "tags": [
