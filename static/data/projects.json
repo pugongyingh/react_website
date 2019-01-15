@@ -3,7 +3,7 @@
   "projects": [
     {
       "title": "Happy Mice",
-      "description": "A game about trying to make mice happy.\n\n[Live](http://www.derekshiller.com/happy_mice)",
+      "description": "A game about trying to make mice happy. Written in React. This was created between 1/5/19 and 1/12/19 for the [Philosophy Game Jam](https://itch.io/jam/philosophy-game-jam). \n\n[Live](http://www.derekshiller.com/happy_mice) [GitHub](https://github.com/dcshiller/happy_mice)",
       "image": "/assets/happy_mice.png",
       "tags": [
         "philosophy",
