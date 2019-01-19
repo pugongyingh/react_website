@@ -17,7 +17,9 @@
     "gatsby-plugin-netlify-cms": "^2.0.1",
     "gatsby-plugin-react-helmet": "^2.0.10",
     "gatsby-plugin-sass": "^1.0.26",
+    "knex": "^0.16.3",
     "netlify-cms": "^1.9.3",
+    "pg": "^7.8.0",
     "react-addons-css-transition-group": "^15.6.2",
     "react-addons-transition-group": "^15.6.2",
     "react-flip-move": "^3.0.2",
@@ -44,8 +46,9 @@
   },
   "devDependencies": {
     "@babel/core": "^7.0.0-beta.54",
+    "babel-loader": "^8.0.5",
     "babel-plugin-transform-react-pug": "^6.0.0",
-    "netlify-lambda": "^1.1.0",
+    "netlify-lambda": "^1.2.0",
     "prettier": "^1.12.0"
   },
   "repository": {
