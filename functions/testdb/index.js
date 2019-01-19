@@ -19,8 +19,13 @@ exports.handler = (event, context, callback) => {
       body: JSON.stringify(r.rows[0]),
     });
   });
-  query.catch(r => console.log("HERE"));
-  //var connection = {
+  query.catch(r => {
+    callback(null, {
+      statusCode: 200,
+      body: JSON.stringify(r),
+    });
+  });
+  //var connecProcess exited before completing requesttion = {
     //host : 'testdb.cmzabivlkufu.us-east-2.rds.amazonaws.com',
     //user : 'derek',
     //password : 'Aa89snj12',
