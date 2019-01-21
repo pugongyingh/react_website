@@ -1,0 +1,15 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 10vh;
+  width: 10vw;
+  overflow: hidden; }
+
+.box {
+  display: flex;
+  flex-direction: column; }
+
+svg {
+  height: 100vh;
+  width: 100vw;
+  background: ivory; }
