@@ -47,7 +47,7 @@ class IndexPage extends React.Component {
         span.select-option
           .button(
             onClick=${this.handleSelect.bind(null, name)}
-            className=${this.state.selectedFields.indexOf(name) !== -1 && "selected"}
+            className=${this.state.selectedFields.includes(name) && "selected"}
             disabled=${ProjectStore.filter(this.state.selectedFields.concat([name])).length == 0}
           )
           label= name
@@ -69,9 +69,10 @@ class IndexPage extends React.Component {
 
     handleSelect = ( field ) => {
       let fields = this.state.selectedFields;
-      if (fields.indexOf(field) == -1) { fields.push(field) }
+      if (!fields.includes(field)) { fields.push(field) }
       else { fields.splice(fields.indexOf(field), 1);}
       this.setState({ selectedFields: fields })
+      ga && ga('send', 'event', 'Project Category', 'select', field);
     }
 }
 
