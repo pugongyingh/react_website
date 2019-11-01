@@ -2,6 +2,15 @@
   "title": "Projects",
   "projects": [
     {
+      "title": "Real Safe Cars",
+      "description": "Website for car safety data produced by Ben Shiller and Bhoomija Ranjan.",
+      "image": "/assets/screenshot-from-2019-09-22-17-06-41.png",
+      "tags": [
+        "data",
+        "programming"
+      ]
+    },
+    {
       "title": "Happy Mice",
       "description": "A game about trying to make mice happy. Written in React. This was created between 1/5/19 and 1/12/19 for the [Philosophy Game Jam](https://itch.io/jam/philosophy-game-jam). \n\n[Live](http://www.derekshiller.com/happy_mice) [GitHub](https://github.com/dcshiller/happy_mice)",
       "image": "/assets/happy_mice.png",
