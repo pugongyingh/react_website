@@ -3,12 +3,12 @@
   "projects": [
     {
       "title": "Race to A.I.",
-      "description": "Game about A.I. Safety. Written in elm for the Philosophy Game Jam #2.\n\n[Live](https://derekshiller.com/race_to_ai) [GitHub](https://github.com/dcshiller/race-to-ai)",
+      "description": "Game about A. I. Safety. Written in elm for the Philosophy Game Jam #2.\n\n[Live](https://derekshiller.com/race_to_ai) [GitHub](https://github.com/dcshiller/race-to-ai)",
       "image": "/assets/racetoai.png",
       "tags": [
         "programming",
         "philosophy",
-        "ai",
+        "a. i.",
         "ethics"
       ]
     },
