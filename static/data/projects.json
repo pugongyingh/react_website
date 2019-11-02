@@ -14,7 +14,7 @@
     },
     {
       "title": "Real Safe Cars",
-      "description": "Website for car safety data produced by Ben Shiller and Bhoomija Ranjan.",
+      "description": "Website for car safety data produced by Ben Shiller and Bhoomija Ranjan.\n\n[Live](https://realsafecars.com)",
       "image": "/assets/screenshot-from-2019-09-22-17-06-41.png",
       "tags": [
         "data",
