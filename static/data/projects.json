@@ -3,7 +3,7 @@
   "projects": [
     {
       "title": "Race to A.I.",
-      "description": "Game about A. I. Safety. Written in elm for the Philosophy Game Jam #2.\n\n[Live](https://derekshiller.com/race_to_ai) [GitHub](https://github.com/dcshiller/race-to-ai)",
+      "description": "A game about A. I. safety. You play as a start up trying to be the first to build a strong A. I. system. This game was written as an experiment in functional programming (elm) for the [Philosophy Game Jam #2](https://itch.io/jam/philgamejam-2). \n\n[Live](https://derekshiller.com/race_to_ai) [GitHub](https://github.com/dcshiller/race-to-ai)",
       "image": "/assets/racetoai.png",
       "tags": [
         "programming",
@@ -14,7 +14,7 @@
     },
     {
       "title": "Real Safe Cars",
-      "description": "Website for car safety data produced by Ben Shiller and Bhoomija Ranjan.\n\n[Live](https://realsafecars.com)",
+      "description": "A website for displaying statistically sophisticated car safety ratings. The ratings were produced by Ben Shiller and Bhoomija Ranjan and combine real-world data with the safety ratings produced by other agencies. The site is written in React.\n\n[Live](https://realsafecars.com)",
       "image": "/assets/screenshot-from-2019-09-22-17-06-41.png",
       "tags": [
         "data",
@@ -23,7 +23,7 @@
     },
     {
       "title": "Happy Mice",
-      "description": "A game about trying to make mice happy. Written in React. This was created between 1/5/19 and 1/12/19 for the [Philosophy Game Jam](https://itch.io/jam/philosophy-game-jam). \n\n[Live](http://www.derekshiller.com/happy_mice) [GitHub](https://github.com/dcshiller/happy_mice)",
+      "description": "A game about trying to make mice happy. The game was written in React and created between 1/5/19 and 1/12/19 for the [Philosophy Game Jam](https://itch.io/jam/philosophy-game-jam). \n\n[Live](http://www.derekshiller.com/happy_mice) [GitHub](https://github.com/dcshiller/happy_mice)",
       "image": "/assets/happy_mice.png",
       "tags": [
         "philosophy",
