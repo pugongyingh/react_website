@@ -3,16 +3,16 @@
 exports.handler = (event, context, callback) => {
   var pg = require('pg');
     var connection = {
-      host : 'test3.cmzabivlkufu.us-east-2.rds.amazonaws.com',
+      host : 'arjuna.db.elephantsql.com',
       port: 5432,
-      user : 'derek',
-      password : 'password',
-      database : 'testdb',
+      user : 'juicmaka',
+      password : 'okUGxNKWk6CtRezIOHLBHxPbYiGMiQcS',
+      database : 'juicmaka',
     };
 
   var client = new pg.Client(connection);
   client.connect();
-  var query = client.query("SELECT name FROM users;");
+  var query = client.query("SELECT ip_address FROM log_visits;");
   query.then(r => {
     callback(null, {
       statusCode: 200,
